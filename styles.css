@@ -145,4 +145,11 @@ h2 {
 }
 /*Skills*/
 
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
 /*Footer*/
