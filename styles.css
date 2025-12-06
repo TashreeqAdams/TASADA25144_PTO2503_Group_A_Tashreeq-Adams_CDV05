@@ -87,6 +87,28 @@ a {
   color: #c9ceff;
 }
 
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  padding: 10px 18px;
+  background: #4e5aff;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.btn-outline {
+  padding: 10px 18px;
+  border: 2px solid #4e5aff;
+  border-radius: 6px;
+  color: #4e5aff;
+  font-weight: 600;
+}
+
 /*Sections*/
 
 .section {
