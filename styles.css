@@ -68,6 +68,7 @@ a {
 
 .hero-grid {
   display: flex;
+
   align-items: center;
   justify-content: space-between;
   gap: 40px;
@@ -162,7 +163,18 @@ h2 {
 
 /*Media Queries*/
 
+@media (min-width: 300px) {
+  .hero-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media (min-width: 600px) {
+  .hero-grid {
+    flex-direction: row;
+  }
+
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
   }
