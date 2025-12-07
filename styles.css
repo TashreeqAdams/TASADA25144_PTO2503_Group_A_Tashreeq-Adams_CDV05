@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #9ca1f1;
   text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ a {
 
 /*Hero*/
 .hero {
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 .hero-grid {
@@ -128,7 +128,7 @@ a {
 /*Sections*/
 
 .section {
-  padding: 60px 0;
+  padding: 20px;
 }
 
 h2 {
@@ -207,12 +207,41 @@ h2 {
   }
 
   .skill-list {
-    /* justify-content: flex-start; */
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #13182e;
+    width: 200px;
+    padding: 20px;
+    border-radius: 0 0 0 10px;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-toggle {
+    display: block;
+    cursor: pointer;
   }
 }
 
 .skill-list {
-  /* justify-content: flex-start; */
+  justify-content: flex-start;
 }
 
 @media (min-width: 1200px) {
